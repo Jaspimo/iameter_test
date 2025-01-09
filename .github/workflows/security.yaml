@@ -160,7 +160,7 @@ jobs:
           cache: 'maven'
 
       - name: Create reports directory
-        run: mkdir -p reports
+        run: mkdir -p reports-dp
 
       - name: Run OWASP Dependency Check
         run: |
